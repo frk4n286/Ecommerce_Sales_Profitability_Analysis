@@ -96,7 +96,7 @@ ORDER BY Total_Profit DESC;
 
 
 -- ============================================================
--- 6. TOP 10 COUNTRIES BY PROFIT
+-- 6. TOP 5 COUNTRIES BY PROFIT
 -- Business Question:
 -- Which countries generate the highest total profit?
 -- ============================================================
@@ -109,4 +109,4 @@ SELECT
 FROM Ecommerce_Sales
 GROUP BY Country
 ORDER BY Total_Profit DESC
-LIMIT 10;
+LIMIT 5;
